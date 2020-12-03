@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Compile Code') {
+        stage('Compilar Codigo') {
             steps {
 			dir("/home/csepu/ejemplo-maven") {
 				sh 'mvn clean compile -e'
